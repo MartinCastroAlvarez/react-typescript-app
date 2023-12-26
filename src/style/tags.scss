@@ -1,0 +1,10 @@
+.aec-cost-tag, .aec-type-tag, .aec-calories-tag, .aec-category-tag, .aec-score-tag, .aec-difficulty-tag {
+    background: $black!important;
+    border: $border solid $black;
+    color: $white!important;
+    border-radius: 0px;
+    user-select: none;
+    padding: $tiny $small;
+    margin: $tiny;
+    font-size: $small;
+}

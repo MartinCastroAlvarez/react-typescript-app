@@ -1,0 +1,9 @@
+.aec-link {
+    color: $primary-strong;
+    text-decoration: none;
+    width: 100%;
+    font-size: $small;
+    &:hover {
+        text-decoration: underline;
+    }
+}

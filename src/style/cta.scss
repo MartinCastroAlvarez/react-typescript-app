@@ -1,0 +1,24 @@
+@mixin aec-cta-button-style {
+    background: $primary-strong;
+    background: linear-gradient($primary-strong, $secondary-strong);
+    color: $white!important;
+    border: $border solid $secondary-strong!important;
+    font-weight: bold;
+    min-width: $min-button-width;
+    max-width: $max-button-width;
+    cursor: pointer;
+    font-size: $small;
+    border-radius: 0px;
+    svg {
+        margin-right: 5px;
+    }
+    &:hover {
+        color: $secondary-strong!important;
+        background: linear-gradient($white, $gray-light);
+        box-shadow: $shadow $secondary-light;
+    }
+}
+
+.aec-cta-button {
+    @include aec-cta-button-style;
+}

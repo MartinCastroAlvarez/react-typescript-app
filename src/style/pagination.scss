@@ -1,0 +1,36 @@
+.aec-pagination {
+    width: 100%;
+    text-align: center;
+    font-size: $small;
+    border-radius: 0px!important;
+    .page-item {
+        border: $border solid $gray-strong;
+        cursor: pointer;
+        .page-link {
+            font-family: $font-family;
+            border-radius: 0px!important;
+            background: $white;
+            padding: $tiny $small;
+            color: $black;
+            &:hover {
+                background: $primary-strong;
+                border: $border solid $primary-strong;
+                color: $white;
+            }
+        }
+        &.active {
+            .page-link {
+                background: $gray-light;
+                color: $primary-strong;
+                font-weight: bold;
+            }
+            &:hover {
+                .page-link {
+                    background: $primary-strong;
+                    border: $border solid $primary-strong;
+                    color: $white;
+                }
+            }
+        }
+    }
+}

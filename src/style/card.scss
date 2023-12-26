@@ -1,0 +1,22 @@
+.aec-recipes, .aec-gallery, .aec-utensils, .aec-ingredients {
+    background: $white;
+    border: $border solid $gray-light;
+    margin: 0px;
+    padding: 0px;
+}
+
+.aec-card {
+    background: $white;
+    border: none;
+    padding: none;
+    opacity: $transparent;
+    margin: 0px 0px $small 0px;
+    cursor: pointer;
+    img {
+        border: $border solid $gray-strong;
+        width: 100%;
+    }
+    &:hover {
+        opacity: $visible;
+    }
+}

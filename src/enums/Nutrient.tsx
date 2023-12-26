@@ -1,0 +1,22 @@
+export enum Nutrient {
+  VitaminA = 'Vitamin A',
+  VitaminB1 = 'Vitamin B1',
+  VitaminB2 = 'Vitamin B2',
+  VitaminB3 = 'Vitamin B3',
+  VitaminB5 = 'Vitamin B5',
+  VitaminB6 = 'Vitamin B6',
+  VitaminB7 = 'Vitamin B7',
+  VitaminB9 = 'Vitamin B9',
+  VitaminB12 = 'Vitamin B12',
+  VitaminC = 'Vitamin C',
+  Calcium = 'Calcium',
+  Phosphorus = 'Phosphorus',
+  Potassium = 'Potassium',
+  Sodium = 'Sodium',
+  Magnesium = 'Magnesium',
+  Iron = 'Iron',
+  Zinc = 'Zinc',
+  Copper = 'Copper',
+  Manganese = 'Manganese',
+  Selenium = 'Selenium'
+}

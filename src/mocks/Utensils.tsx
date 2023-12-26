@@ -1,0 +1,22 @@
+export const UTENSILS_IPSUM = [
+  'Chef\'s Knife',
+  'Paring Knife',
+  'Cutting Board',
+  'Cast Iron Skillet',
+  'Saucepan',
+  'Stockpot',
+  'Baking Sheet',
+  'Measuring Cups',
+  'Measuring Spoons',
+  'Mixing Bowls',
+  'Whisk',
+  'Spatula',
+  'Ladle',
+  'Tongs',
+  'Vegetable Peeler',
+  'Box Grater',
+  'Garlic Press',
+  'Can Opener',
+  'Colander',
+  'Salad Spinner'
+]

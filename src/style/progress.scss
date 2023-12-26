@@ -1,0 +1,13 @@
+.aec-progress {
+    h2 {
+        font-size: $medium;
+        margin: 0px;
+    }
+    .progress {
+        border-radius: 0px;
+        .progress-bar {
+            background: $primary-strong;
+            border-radius: 0px;
+        }
+    }
+}

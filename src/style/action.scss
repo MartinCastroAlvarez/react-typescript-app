@@ -1,0 +1,19 @@
+@mixin aec-action-style {
+    background: $primary-strong!important;
+    color: $white!important;
+    border: $border solid $gray-strong!important;
+    font-size: $small;
+    padding: $tiny $large;
+    border-radius: 0px!important;
+    min-width: $min-button-width;
+    max-width: $max-button-width;
+    &:hover {
+        color: $primary-strong!important;
+        background: $white!important;
+        border: $border solid $primary-light;
+    }
+}
+
+.aec-normal-button {
+    @include aec-action-style;
+}

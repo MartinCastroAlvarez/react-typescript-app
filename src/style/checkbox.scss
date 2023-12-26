@@ -1,0 +1,11 @@
+.aec-checkbox {
+    input {
+        box-shadow: none!important;
+    }
+    label {
+        color: $black;
+        width: 100%;
+        box-shadow: none!important;
+        font-size: $small;
+    }
+}

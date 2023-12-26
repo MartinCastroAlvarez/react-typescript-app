@@ -1,0 +1,6 @@
+.aec-share {
+    padding: $small $tiny;
+    button {
+        @include aec-action-style;
+    }
+}

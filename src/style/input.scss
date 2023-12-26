@@ -1,0 +1,12 @@
+.aec-input, .aec-password-input, .aec-search {
+    color: $black;
+    width: 100%;
+    box-shadow: none!important;
+    border-radius: 0px;
+    padding: $small / 2 $small;
+    font-size: $small;
+    border: $border solid $gray-strong;
+    &:hover, &:active {
+        border: $border solid $primary-light;
+    }
+}
